@@ -1,0 +1,1 @@
+ScrapShot is a reverse request-based platform for scrap collection, where users post items and collectors can request pickups based on interest and location.  This project was me trying my hand at PHP and MySQL, experimenting with backend development while having fun building something practical.
