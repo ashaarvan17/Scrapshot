@@ -1,0 +1,108 @@
+
+* {
+    
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  margin: 0;
+
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.page-header {
+    color:#DBC2CF;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+/* Add Button */
+.add-btn {
+    background: #2E4756;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.add-btn:hover {
+    background: #16262E;
+    transform: translateY(-2px);
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* Card */
+.card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+.card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.card button{
+    
+    background: #2E4756;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.card button:hover {
+    background: #16262E;
+    transform: translateY(-2px);
+}
